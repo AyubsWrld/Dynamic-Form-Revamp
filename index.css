@@ -1,0 +1,59 @@
+/* Universal expansion */
+
+*, 
+*::before,
+*::after{ 
+  box-sizing: border-box; 
+}
+
+/* Universal expansion */
+
+/* Font imports */
+
+@font-face {
+  font-family: Raleway;
+  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">)
+}
+
+
+
+
+
+
+/* Input Box Styles  */
+
+.input-boxes{ 
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 30px; 
+}
+.input-boxes > label{ /* Text above input boxes*/
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+  margin-bottom: 6px;
+  font-size:12px ;
+  
+
+}
+.input-boxes > input{  /*Placeholder text*/
+  background-color: rgba(36, 36, 36, 255);
+  opacity: 100%;
+  border-radius: 5px;
+  height: 28px;
+  padding-left: 40px;   
+ }
+
+/* Input Box Styles  */
+
+
+
+
+
+
+
+
+
+
